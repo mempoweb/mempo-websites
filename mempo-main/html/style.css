@@ -78,10 +78,16 @@ p {
 .systems_comparsion {border-collapse: collapse;
 					border: 1px solid black;}
 .systems_comparsion { font-size: 12px;}
+.systems_comparsion td img { opacity: 0.50; width: 8px; height: 8px; } /* for n - NO */
 
-.systems_comparsion .y { background-color: #6f6; font-size: 15px; }
-.systems_comparsion .h { background-color: #FFFF00;font-size: 15px; } 
-.systems_comparsion .w { background-color: #cf8; font-size: 15px;}
+.systems_comparsion td.y { background-color: #1f1; font-size: 15px; } /* y - ues */
+.systems_comparsion td.y img { opacity: 1; width: 16px; height: 16px; }
+
+.systems_comparsion td.h { background-color: #FFFF00;font-size: 15px; }  /* h - Half yes/no */
+.systems_comparsion td.h img { opacity: 0.90; width: 16px; height: 16px; }
+
+.systems_comparsion td.w { background-color: #EEFF44; font-size: 15px;} /* w - WiP */
+.systems_comparsion td.w img { opacity: 0.75; width: 12px; height: 12px; }
 
 .systems_comparsion .grsec { background-color: #DFCBFF }
 .systems_comparsion .isolation { background-color: #FFD383 }  
@@ -114,11 +120,12 @@ input[type="checkbox"]#button-details2:hover + * {background:#EFF8CA;}
 .freesite i { font-size: 2px; }
 
 
-#hover1 div { display:none !important; }
-#hover1 span { color:#008; }
+#hover1 div { display:block !important; }
+#hover1 span { display:none; color:#008; }
 #hover1:hover span { display:none !important; }
 #hover1:hover div { display:block !important;  }
-#hover1:hover { border: 1px dashed #888; }
+#hover1 { border: 1px dashed #888; }
+#hover1:hover { border: 1px solid #888; }
 
 
 #content div { margin: 8px 0 8px 0; }
