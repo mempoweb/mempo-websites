@@ -153,10 +153,15 @@ with firewalled tunnels in between, all compiled from source after you meet all 
 <br>
 Comparison of existing systems with Mempo (as <b>planned</b> in Stage-1 and 2 - roadmap).
 <table border="1" class="systems_comparsion">
-	<tr align="center"> 
+	<tr align="center" class="systemlist"> 
 		<td><b>System</b></td>
 		<td><abbr title="Mempo - as planned for Stage-1 or Stage-2, description and roadmap below."
 		><b>Mempo</b><sup>*</sup></abbr><br/><img src="images/mempo-logo-small.png" /><br/></td>  
+
+		<td><b>Debian</b><br/></td>
+		<td><b><abbr title="Debian 8 Experimental: This shows what will be possible with debian-reproducible project that will probably become official Debian but after Debian 8, so around year 2016-2017 most likelly, though backports and not-official Stable repository seem to be available right now too"
+		>Deb 8 Exp</b><br/></td>
+
 		<td><b>Tails</b><br/><a href="https://tails.boum.org/" target="blank"><img src="images/tails-logo-7.v3.png" /></a></td> 
 		<td><b>Whonix</b><br/><a href="https://www.whonix.org/wiki/Main_Page" target="blank"><img src="images/whonix-logo135.v1.png" /></a></td> 
 		<td><b>QubesOS<br/><a href="http://qubes-os.org/trac" target="blank"><img src="images/qubesos-logo1.png" /></a></b></td>
@@ -165,12 +170,22 @@ Comparison of existing systems with Mempo (as <b>planned</b> in Stage-1 and 2 - 
 		><b>Chrome</b><sup>*</sup></abbr><br/><a href="http://www.chromium.org/chromium-os" target="blank"><img src="images/chromiumos.png" /></a></b></td>
 	</tr>
 
-	<tr align="center"> 
+	<tr align="center" class="installmethod"> 
 		<td class="noname"><b>Live-CD/Primary-OS/Packets</b></td>
-		<td align="center" class="w">
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>		
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+		<td align="center" class="h">
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>	
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+		</td>  
+		<td align="center" class="h">
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>	
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+		</td>  
+		<td align="center" class="h">
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>	
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
 		</td>  
 		<td align="center" class="h">
 		<img src="images/right2.png" width="10" height="16" alt="Yes"/> 
@@ -203,27 +218,31 @@ Comparison of existing systems with Mempo (as <b>planned</b> in Stage-1 and 2 - 
 
 
 
+	<tr align="center"> 
+		<td class="grsec">Install &amp; apt-get via I2P/Freenet</td>
+
+		<td align="center" class="y"><img src="images/right.png" width="16" height="16" alt="Yes"/>/<img src="images/right.png" width="16" height="16" alt="Yes"/></td>
+		<td align="center" class="n"><img src="images/wrong.png" width="16" height="16" alt="No"/>/<img src="images/wrong.png" width="16" height="16" alt="No"/></td>
+		<td align="center" class="n"><img src="images/wrong.png" width="16" height="16" alt="No"/>/<img src="images/wrong.png" width="16" height="16" alt="No"/></td>
+		<td align="center" class="n"><img src="images/wrong.png" width="16" height="16" alt="No"/>/<img src="images/wrong.png" width="16" height="16" alt="No"/></td>
+		<td align="center" class="n"><img src="images/wrong.png" width="16" height="16" alt="No"/>/<img src="images/wrong.png" width="16" height="16" alt="No"/></td>
+		<td align="center" class="n"><img src="images/wrong.png" width="16" height="16" alt="No"/>/<img src="images/wrong.png" width="16" height="16" alt="No"/></td>
+		<td align="center" class="n"><img src="images/wrong.png" width="16" height="16" alt="No"/>/<img src="images/wrong.png" width="16" height="16" alt="No"/></td>
+		<td align="center" class="n"><img src="images/wrong.png" width="16" height="16" alt="No"/>/<img src="images/wrong.png" width="16" height="16" alt="No"/></td>
+
+	</tr>
+
 
 	<tr align="center"> 
 		<td class="grsec">GrSecurity hardened Kernel</td>
-		<td align="center" class="y">
-		<img src="images/right.png" width="16" height="16" alt="Yes"/>
-		</td>  
-		<td align="center">
-		<img src="images/wrong.png" width="16" height="16" alt="No"/>
-		</td>   
-		<td align="center">
-		<img src="images/wrong.png" width="16" height="16" alt="No"/>
-		</td>  
-		<td align="center">
-		<img src="images/wrong.png" width="16" height="16" alt="No"/>
-		</td> 
-		<td align="center" class="y">
-		<img src="images/right.png" width="16" height="16" alt="Yes"/>
-		</td>
-		<td align="center" class="y">
-		<img src="images/right.png" width="16" height="16" alt="Yes"/>
-		</td> 
+		<td align="center" class="y"><img src="images/right.png" width="16" height="16" alt="Yes"/></td>  
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td> 
+		<td align="center" class="y"><img src="images/right.png" width="16" height="16" alt="Yes"/></td>
+		<td align="center" class="y"><img src="images/right.png" width="16" height="16" alt="Yes"/></td> 
 	</tr>
 
 	<tr align="center">
@@ -231,6 +250,8 @@ Comparison of existing systems with Mempo (as <b>planned</b> in Stage-1 and 2 - 
 		<td align="center" class="y">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>   
@@ -253,6 +274,8 @@ Comparison of existing systems with Mempo (as <b>planned</b> in Stage-1 and 2 - 
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/><!-- <sup><abbr title="Work In Progress - working on this functions today">wip</abbr></sup> -->
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>   
@@ -275,6 +298,8 @@ Comparison of existing systems with Mempo (as <b>planned</b> in Stage-1 and 2 - 
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>   
@@ -303,6 +328,8 @@ We might offer 2 versions of some applications like java-secure and java-fast-ji
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>   
@@ -326,6 +353,8 @@ We might offer 2 versions of some applications like java-secure and java-fast-ji
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 			<sup><abbr title="Work In Progress - working on this functions today">wip</abbr></sup>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center" class="y">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>   
@@ -348,6 +377,8 @@ We might offer 2 versions of some applications like java-secure and java-fast-ji
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>   
@@ -370,6 +401,8 @@ The typical chroot run on not hardened kernel is usually not so good as security
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>   
@@ -391,6 +424,8 @@ The typical chroot run on not hardened kernel is usually not so good as security
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>   
@@ -414,6 +449,8 @@ The typical chroot run on not hardened kernel is usually not so good as security
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center" class="y">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>   
@@ -435,6 +472,8 @@ The typical chroot run on not hardened kernel is usually not so good as security
 		<td align="center" class="w">
 		<img src="images/right.png" width="16" height="16" alt="Yes"/>
 		</td>    
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>   
+		<td align="center"><img src="images/wrong.png" width="16" height="16" alt="No"/></td>  
 		<td align="center">
 		<img src="images/wrong.png" width="16" height="16" alt="No"/>
 		</td>    
@@ -455,41 +494,53 @@ The typical chroot run on not hardened kernel is usually not so good as security
 	<tr align="center">
 		<td class="network"><b>Tor, I2P, Freenet, VPN</b> preconfigured</td>
 		<td align="center" class="y">
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>		
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>					
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>		
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>					
 			<sup><abbr title="pre-alpha version exists today">α</abbr></sup>
 		</td>
+		<td align="center" class="n">
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+		</td>
+		<td align="center" class="n">
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+		</td>
 		<td align="center" class="h">
-		<img src="images/wrong2.png" width="10" height="16" alt="Yes"/>
-		<img src="images/right2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="Yes"/>
+			<img src="images/right2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
 		</td>   
 		<td align="center" class="h">
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>		
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>		
 		</td>  
 		<td align="center" class="h">
-		<img src="images/right2.png" width="10" height="16" alt="Yes"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/right2.png" width="10" height="16" alt="Yes"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
 		</td>  
-		<td align="center">
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+		<td align="center" class="n">
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
 		</td>  
-		<td align="center">
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
-		<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+		<td align="center" class="n">
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
+			<img src="images/wrong2.png" width="10" height="16" alt="No"/>
 		</td>
 	</tr>
 

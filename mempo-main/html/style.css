@@ -75,10 +75,13 @@ p {
 .legend { font-size: 80%; }
 .thewarning1 { color: #A12D0E; }/*primary-3*/
 
-.systems_comparsion {border-collapse: collapse;
-					border: 1px solid black;}
+.systems_comparsion {border-collapse: collapse; border: 1px solid black;}
 .systems_comparsion { font-size: 12px;}
 .systems_comparsion td img { opacity: 0.50; width: 8px; height: 8px; } /* for n - NO */
+
+.systems_comparsion tr.installmethod td img { width: 8px; height: 16px; }
+
+.systems_comparsion tr.systemlist td img { width: 50px; height: 50px; opacity: 1; }
 
 .systems_comparsion td.y { background-color: #1f1; font-size: 15px; } /* y - ues */
 .systems_comparsion td.y img { opacity: 1; width: 16px; height: 16px; }
